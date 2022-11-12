@@ -1,0 +1,11 @@
+@mixin styling() {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+@mixin styling2() {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
